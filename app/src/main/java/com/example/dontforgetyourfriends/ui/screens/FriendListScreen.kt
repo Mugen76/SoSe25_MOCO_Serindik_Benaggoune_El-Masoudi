@@ -21,7 +21,7 @@ fun FriendListScreen() {
     // Zustand für Dialoganzeige
     var showDialog by remember { mutableStateOf(false) }
 
-    // Testdaten beim ersten Start hinzufügen
+    // Testdaten beim ersten Start
     LaunchedEffect(Unit) {
         if (friends.isEmpty()) {
             friends.addAll(

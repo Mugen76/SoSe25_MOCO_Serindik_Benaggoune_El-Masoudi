@@ -14,7 +14,6 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             DontForgetYourFriendsTheme {
-                // 👉 Start-Screen eurer App
                 FriendListScreen()
             }
         }
